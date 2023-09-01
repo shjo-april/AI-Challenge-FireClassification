@@ -10,7 +10,7 @@ from utils import Dataset, Network
 
 if __name__ == '__main__':
     train_dataset = Dataset('./train.xlsx', 'train')
-    train_loader = DataLoader(train_dataset, batch_size=256, shuffle=True, drop_last=True, num_workers=1)
+    train_loader = DataLoader(train_dataset, batch_size=64, shuffle=True, drop_last=True, num_workers=1)
 
     model = Network(num_classes=2)
     
