@@ -18,7 +18,7 @@ Need to download and structure your dataset correctly.
 - Use [the Google Drive link](https://drive.google.com/file/d/1TQVXo49dpYsASU5i7zfhBZrvMNmaSw8t/view?usp=sharing) to download the dataset.
 
 **Folder Structure**:
-You should organize the dataset in the following manner:
+Organize the dataset in the following manner:
 
 ```bash
 data_train/
@@ -55,6 +55,6 @@ Generate an Excel file with the results of your trained model. This file will co
 python test.py
 ```
 
-### 4.2. Submit the Excel File (URL: "http://192.168.100.7:8080")
+### 4.2. Submit the Excel File (URL: "http://211.171.175.186:1429/")
 
 Submit 'results.xlsx' to the evaluation server. This server will evaluate the performance.
