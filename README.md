@@ -41,7 +41,7 @@ requirements.txt
 
 # 3. Training
 
-Train your model.
+Training takes approx. 20 minutes until convergence (trained with a single RTX 2080 Ti GPU).
 
 ```bash
 python train.py
